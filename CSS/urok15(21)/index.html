@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <article>
+        <h1>Форма ученика HTML</h1>
+        <form class="subform" action="" method="POST">
+            <p>
+                <label for="name">Как Вас зовут?</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="email">Введите Вашу почту</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>Есть опыт изучении:
+                <label>
+                    <input type="radio" name="skill" value="1">
+                    JavaScript
+                </label>
+                <label >
+                    <input type="radio" name="skill" value="2">
+                    HTML & CSS
+                </label>
+                <label>
+                    <input type="radio" name="skill" value="3">
+                    PHP
+                </label>
+
+            </p>
+            <p>
+                <label for="goal">Какую цель преледую:</label>
+                <select name="goal" id="goal">
+                    <option >Хочу сменить профессию</option>
+                    <option >Повысить скилл</option>
+                    <option >Как хобби</option>
+                    <option >Хочу быть фрилансером</option>
+                </select>
+            </p>
+            <p>
+				<label for="comments">Ваше пожелание</label>
+				<textarea name="comments" cols="40" rows="5" id="comments">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
+        </form>
+    </article>
+    
+</body>
+</html>

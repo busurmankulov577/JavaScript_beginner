@@ -1,0 +1,15 @@
+body{
+    background: #fffff1;
+    color: grey;
+}
+article{
+    width: 990px;
+    margin: 0 auto;
+    background: yellow;
+}
+.test{
+    background: white;
+}
+p span{
+    background: tomato;
+}

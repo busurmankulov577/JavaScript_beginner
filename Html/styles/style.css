@@ -1,0 +1,56 @@
+/* Universal style */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    /* Margin - это внешний отступ 
+            Так же это выравнивание      
+            margin :0 auto; - ноль отступов со всех сторон и это значит выровнять по центру        
+    */
+}
+
+
+/* end of  universal style  */
+
+
+
+/* style for table */
+table{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #193c5a;
+    color: white;
+    border: 12px solid #14293b ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+th{
+    font-size: 18px;
+    padding: 10px;
+}
+td{
+    background: #2e6390;
+}
+
+.tablica{
+    display: flex;
+    justify-content: center;
+}
+/* end of style for table */
+
+
+.txt{
+    position: absolute;
+    top: 200px;
+    left: 820px;
+}
+.container a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+.ipt {
+    border: 5px outset green;
+}

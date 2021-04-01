@@ -1,0 +1,205 @@
+body{
+    background-color: #828282 ;
+}
+.wrapper{
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+
+
+}
+.nav{
+    transition: 0.5s;
+}
+.nav:hover{
+    background-color: black;
+}
+nav li:hover{
+    transition: 0.5s;
+}
+.nav li:hover{
+    background-color:white;
+}
+
+.nav > li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.main_menu{
+    background-color: white;
+}
+.nav > li > a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #828282;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav2 > li {
+    margin: 10px 115px;
+}
+
+.text1 ul li:nth-child(1){
+    font-size: 47.3392px;
+    color:#070707 ;
+}
+.text1 ul li:nth-child(2){
+    font-size: 18px;
+    line-height: 22px;
+    color:#070707 ;
+    text-align: right;
+    padding: 15px;
+}
+
+.text1 ul li:nth-child(3){
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    padding: 15px;
+
+}
+
+/* 
+Фото 
+*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    max-width: 1082.5px;
+    padding-top: 80px;
+    padding-bottom: 300px;
+
+
+}
+
+
+/* Block About me  */
+
+.about_me{
+    font-size: 34px;
+    color: #070707;
+    text-align: center;
+    padding-bottom: 30px ;
+}
+.about_me p{
+    font-size: 18px;
+}
+
+/* <!-- Skills block --> */
+.bg-wh{
+    background-color: white;
+}
+
+.skills1{
+    
+    font-size: 34px;
+    color: #070707; 
+    text-align: center;
+    
+}
+.skills1 h3{
+    padding-top: 40px;
+}
+.skills1 > p{
+    font-size: 18px;
+    margin: 100px;
+}
+.skills{
+    display: flex;
+    font-size: 18px;
+    color: #828282; 
+    text-align: center;
+    /* padding-left: 135px;
+    padding-right: 135px; */
+    margin: 100px;
+    padding-bottom: 30px;
+}
+
+/* Skills End  */
+
+
+
+
+/* Portfolio  */
+.port{
+    background-color: gainsboro;
+    text-align: center;
+}
+.port h3 {
+    font-size: 34px;
+    color: #070707;
+    padding-top: 20px;
+}
+.port p a{
+    font-size: 18px;
+    color: #070707;
+    margin: 100px;
+}
+/* Portfolio end */
+
+
+/* Contacts */
+.contacts h3{
+    font-size: 34px;
+    color: #070707;
+    padding-top: 20px;
+}
+.contacts button{
+    width: 150px;
+    height: 35px;
+    background: #4b4a4a;
+    color: white;
+    border-radius: 20px;
+    margin: 0px;
+}
+.contacts{
+    background-color: white;
+    text-align: center;
+}
+
+
+.figures{
+    display: flex; 
+    text-align: center;   
+    padding-left: 430px;
+    padding-right: 430px;
+}
+
+.podvalp{
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+.contacts button:hover{
+    transition: 0.5s;
+}
+.contacts button:hover{
+    background: #070707;
+}
+

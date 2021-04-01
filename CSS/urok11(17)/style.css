@@ -1,0 +1,29 @@
+body{
+    padding: 60px;
+    /* background-repeat: no-repeat;
+    background-image: url(./img/fon.jpg); */
+
+
+}
+.test2{
+    background-image: url(./img/fon.jpg);
+    background-repeat: repeat-x;
+}
+.test{
+    background-image: url(./img/fon.jpg);
+    background-repeat: repeat-x;
+}
+
+.test1{
+    background-image: url(./img/fon.jpg);
+    background-repeat: repeat-x;
+}
+
+.test3{
+    background-image: url(./img/fon.jpg);
+    background-repeat: repeat-x;
+}
+.test4{
+    background-image: url(./img/fon.jpg);
+    background-repeat: repeat-x;
+}

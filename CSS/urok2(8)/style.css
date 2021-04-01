@@ -1,0 +1,59 @@
+img[title="picture2"]{
+    width: 100px;
+
+}
+img[title="picture1"]{
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+img[title="picture1"]:hover{
+    /* width: 200px; */
+    margin-left: 20px;
+}
+
+
+img[title="picture3"]{
+    width: 150px;
+    transition: 0.5s;
+}
+img[title="picture3"]:hover{
+    border: 1px outset red;
+    
+}
+
+img[title="picture4"]{
+    width: 150px;
+}
+img[title="picture5"]{
+    width: 200px;
+}
+img[title="picture6"]{
+    width: 200px;
+}
+
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+
+a[href="http://google.com"]{
+    border: 1px solid blue;
+    background-color: blue;
+    color: wheat;
+    text-decoration: none;
+}
+a[href="http://gmail.com"]{
+    height: 10px;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+
+    
+}

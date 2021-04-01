@@ -1,0 +1,14 @@
+body{
+    padding: 60px;
+
+}
+p {
+    background-image: linear-gradient(yellow, transparent),
+                      linear-gradient(120deg,green, transparent),
+                      linear-gradient(120deg , coral, transparent);
+
+}               
+
+.test2{
+    background-image: radial-gradient(circle at 30% 50%, red, blue);
+}

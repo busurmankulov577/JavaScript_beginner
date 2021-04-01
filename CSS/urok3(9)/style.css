@@ -1,0 +1,45 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #8c93d6;
+    padding: 15px;   /*  */
+}
+.imgs{
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "Kurale", Arial, Helvetica, sans-serif;
+
+}
+h1, h2, h3{
+    color: rgb(255, 255, 255);
+    font-family: Arial, "Palatino linotype", serif;
+    border-bottom: 2px solid gray;
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+h1{
+    font-size: 2em;
+}
+#logo{
+    font-family: "Baskerville", "Palatino", sans-serif;
+    font-size: 2.1em;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 26px;
+    background: rgb(190, 190, 110);
+    border-radius: 0px 0px 10px 10px;
+    padding: 14px;
+}
+.note{
+    color: #000000;
+    border: 2px inset #fff;
+    background-color: rgb(69, 189 , 102);
+    margin-top: 22px;
+    margin-bottom: 30px;
+    padding: 18px;
+}

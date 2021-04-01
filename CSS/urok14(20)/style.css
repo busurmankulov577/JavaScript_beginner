@@ -1,0 +1,36 @@
+body{
+    padding: 60px;
+
+}
+
+p.test1{
+    width: 500px;
+    border: 1px solid #003;
+    padding: 3px;
+    transform: rotate(10deg);
+    transform: scale(0.3);
+}
+.button {
+    /* font: .9em Arial, Helvetica, sans-serif;
+    border-radius:.5em; */
+    padding: 3px;
+    color: black;
+    border: 5px solid #660034;
+    /* border: 1px solid rgba(0,0,0,.5);
+    padding: .5em;
+    display: inline-table;*/
+    transition-property: color, background-color,border-color;
+    transition-duration: 1s ,1s, 2s;
+    transition-delay: 0,0,1s;
+}
+.button:hover{
+    /* -webkit-transform: scale(1.2) rotate(180deg);
+    -ms-transform: scale(1.2)rotate(180deg);; */
+    /* transform:rotate(180deg);
+    transform-origin: 2 34; */
+
+    color: white;
+    background-color: paleturquoise;
+    border-color: #ff6603;
+    
+}

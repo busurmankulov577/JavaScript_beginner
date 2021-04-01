@@ -1,0 +1,38 @@
+
+a:active{
+    font-size: 20px;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: rgb(146, 133, 133);
+}
+a:hover{
+    color: blue;
+}
+h2::first-letter{
+    font-size: 24px;
+    color: red;
+}
+p::first-line{
+    font-weight: bold;
+}
+input:focus{
+    background-color: #fffccc;
+}
+
+
+.test:before{
+    content:"\2744";
+}
+.test::after{
+    content:"\2744"
+}
+p::selection{
+    color: rgb(253, 251, 251);
+    background-color: black;
+}
+.test1::first-line{
+    font-style: italic;
+}
